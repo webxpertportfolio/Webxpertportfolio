@@ -168,4 +168,23 @@ https://templatemo.com/tm-593-personal-shape
                 mobileMenu.classList.remove('active');
                 document.body.style.overflow = 'auto';
             }
+const backToTopButton = document.getElementById("backToTop");
+
+// Show or hide the button when scrolling
+window.onscroll = function () {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    backToTopButton.style.display = "flex";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+};
+
+// Scroll to top when clicked
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
         });
