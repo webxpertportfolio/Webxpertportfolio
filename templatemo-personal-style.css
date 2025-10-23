@@ -654,6 +654,7 @@ html, body {
             gap: 6rem;
             align-items: center;
             position: relative;
+            text-align: center;
         }
 
         .about-image {
@@ -818,6 +819,7 @@ html, body {
 
         .portfolio-content {
             padding: 2rem;
+            text-align: center;
         }
 
         .portfolio-content h4 {
@@ -832,6 +834,7 @@ html, body {
             color: var(--text-secondary);
             margin-bottom: 1.5rem;
             line-height: 1.7;
+          text-align: center;
         }
 
         .portfolio-tech {
@@ -1248,3 +1251,4 @@ html, body {
         }
 
                 
+
