@@ -1267,9 +1267,74 @@ html, body {
   color: #00bfa5; /* teal hover color */
   transform: translateY(-4px); /* slight lift on hover */
 }
+/* Scroll to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
+
+/* Bounce animation like reading hint */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+#backToTop {
+  animation: bounce 1.5s infinite;
+}
+/* Scroll to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
+
+/* Bounce animation like reading hint */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+#backToTop {
+  animation: bounce 1.5s infinite;
+}
 
 
                 
+
 
 
 
