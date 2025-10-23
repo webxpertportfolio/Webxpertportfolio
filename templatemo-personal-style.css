@@ -1250,8 +1250,27 @@ html, body {
         .icons.alt li a:hover {
             color: #1da1f2;  /* Hover color (optional) */
         }
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #bbb;
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00bfa5; /* teal hover color */
+  transform: translateY(-4px); /* slight lift on hover */
+}
+
 
                 
+
 
 
 
