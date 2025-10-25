@@ -666,7 +666,6 @@ html, body {
             position: relative;
             overflow: hidden;
             box-shadow: var(--shadow-2xl);
-            transform: rotate(-2deg);
             transition: transform 0.4s ease;
 
         .about-image:hover {
@@ -1333,6 +1332,7 @@ html, body {
 
 
                 
+
 
 
 
